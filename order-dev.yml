@@ -10,5 +10,5 @@ spring:
     show-sql: true
 env: dev112
 girl:
-  name:lili
-  age:18
+  name: lili
+  age: 18
