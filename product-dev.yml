@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: product
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
@@ -5,4 +8,5 @@
     url: jdbc:mysql://127.0.0.1:3306/test?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
-  boy
+boy:
+  name: abg
