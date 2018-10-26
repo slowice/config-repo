@@ -1,0 +1,11 @@
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      #需要过滤的httpheader，默认会不传递cookie
+      sensitiveHeaders:
+#下面是简洁写法：
+#    product: /myProduct/**
+  ignored-patterns:
+    /**/product/list
