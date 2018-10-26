@@ -7,5 +7,5 @@ zuul:
       sensitiveHeaders:
 #下面是简洁写法：
 #    product: /myProduct/**
-  #ignored-patterns:
-    #/**/product/list
+  ignored-patterns:
+    /**/product/list
